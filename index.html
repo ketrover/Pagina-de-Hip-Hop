@@ -1,0 +1,323 @@
+<!-- Los comentarios a lo largo del codigo son muy importantes nos ayudan  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>La historia del Hip Hop, su cultura y sus orígenes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="index.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+
+  
+</style>
+</head>
+
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons --> 
+
+
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official" style=color:yellow;></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram" style=color:yellow;></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat" style=color:yellow;></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr" style=color:yellow;></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter" style=color:yellow;></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin" style=color:yellow;></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search" style=color:yellow;></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>Hip Hop</b></h1>
+    <h6><span class="w3-tag" style=color:yellow>Bienvenidos a la Historia del Hip Hop</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="Cantantes Hip Hop.jpg" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white"><b></b>
+
+      </h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b></b></h1>
+      <h6><button class="w3-button w3-yellow w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">Registrate</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Origen del Hip Hop</h3>
+          <h5>
+              <span class="w3-opacity"></span>
+          </h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="Hip hop 3.jpg" alt="" style="width:100%" class="w3-padding-16">
+          <h3><strong> El hip hop es un movimiento cultural que nace en el sur de Estados Unidos en los últimos años de la década de los cincuenta. Especialmente, la historia del hip hop ve sus inicios en Brooklyn y el barrio de Bronx, en Nueva York.
+            Se empezaron a hacer comunes las llamadas block parties, fiestas callejeras que dieron la forma inicial de la cultura hip hop. Las influencias afroamericanas y latinoamericanas son muy notables en el desarrollo de este género musical, ya que la gran mayoría no podía permitirse asistir a otro tipo de fiestas. El hip hop ve su auge en estas fiestas.
+          </p>
+          <h3 class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i > Me gusta</b></button></h3>
+          <h3 class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b style=color:yellow;>Respondidos  </b> <span class="w3-tag w3-" style=color:yellow; >1</span></button></h3>
+          <h3 class="w3-clear"></h3>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="2pac.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h3>Tupac    <span class="w3-opacity w3-medium"> Sept 13, 2006, 9:32 PM</span></h3>
+                <h3>What a barbaric story </h3>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3><b>Black Parties del Hip Hop</b></h3>
+          <h5> <span class="w3-opacity"></span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="Danza hiphop.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <h3>En las block parties había cuatro figuras fundamentales que se convertirían en los pilares básicos de la cultura del hip hop:
+
+            <li> El DJ, encargado de la parte musical, la base.</li>
+            
+            <li>Los B-boys o B-girls, es decir los bailarines. El baile también es una parte imprescindible y muy característica dentro del hip hop. El breakdance ha sido el estilo de baile más extendido dentro del hip hop, pero no el único, ya que existen diversas modalidades de danza.</li>
+
+            <li>Los graffitis. La representación gráfica más característica callejera.</li>
+            
+            <li> El MC o Maestro de Ceremonias, encargado de la parte vocal.</li>
+            
+            El DJ Kool Herc, de origen jamaicano, es considerado uno de los padres del hip hop. Fue en 1974 cuando se dio cuenta de cómo exaltaba a los más jóvenes la parte musical denominada breaks. En una fiesta decidió manipular manualmente la aguja del tocadiscos para que el break se repitiera. Así fue como nació el breakbeat.</h3>
+          <h3 class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Me gusta</b></button></h3>
+          <h3 class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b style=color:yellow;>Respondidos  </b> <span class="w3-tag w3-yellow">3</span></button></h3>
+          <h3 class="w3-clear"></h3>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="Snoop.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Snoop Dogg <span class="w3-opacity w3-medium">April 23, 2023, 7:22 PM</span></h4>
+                <p>Damn what a quality story.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="Eminem.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Eminem <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
+                <p>Trust is hard to come by.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="Ice cube.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Ice cube  <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
+                <p>No words bro.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="" alt="" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4 style=color:yellow;>¿Que te ha parecido?</h4>
+          <p></p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4 style=color:yellow;>Te podria interesar</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="Canserbero.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large"><a href=https://www.bbc.com/mundo/noticias/2015/01/150121_venezuela_muerte_canserbero_rap_molnar_ch >¡Canserbero!</a></span>
+            <br>
+            <span>¡Muerte repentina de canserbero!</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="Tecnologia.jpeg" alt="" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large"><a href=https://thefoodtech.com/tendencias-de-consumo/las-tecnologias-que-serian-tendencia-en-2023/ >¡La Tecnologia!</a></span>
+            <br>
+            <span>¡La tecnologia esta evolucionando aprende Programación!</span> 
+          </li>
+          <li class="w3-padding-16">
+            <img src="Economia (1).jpg" alt="" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large"><a href=https://news.un.org/es/story/2023/01/1518267 >¡¡Economia en colombia!!</a></span></span>
+            <br>
+            <span>Cinco temas claves que moverán la economía colombiana en 2023</span>
+          </li>
+
+          <li class="w3-padding-16">
+            <img src="Smallville.jpeg" alt="" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">  <a href=https://www.cinepremiere.com.mx/smallville-serie.html >¡Smallville!</a></span>
+            <br>
+            <span>¡Serie de television del 2001 exitosa!</span>
+
+          <li class="w3-padding-16">
+            <img src="Niños.jpg" alt="" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">  <a href=https://news.un.org/es/story/2023/01/1518267 >¡Niños Impresionados!</a></span>
+            <br>
+            <span>Ocho tendencias que impactarán a los niños en 2023</span>
+            
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+     
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4 style=color:yellow;>#Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom" style=color:yellow;>Hip Hop</span> <span class="w3-tag w3-light-black w3-small w3-margin-bottom" style=color:yellow;> Rap</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Nueva York</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Anime</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Musica</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Odin</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Metodologia</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Regresar</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Misterio</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Paranormal</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Dizfras</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Magia</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Muñecas que hablan</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Inspiration</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="img/MLR_Ecchan.webp" alt="Jeans" style="width:100%"></p>
+            <p><img src="img/MLR_Hela.webp" alt="Jeans" style="width:100%"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="img/MLR_Misao_Daidouji.webp" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="img/MLR_Narugami.webp" alt="Jeans" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container " style="padding:32px">
+  <a href="#" class="w3-button w3-yellow w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>¡Ir arriba con un click!</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
